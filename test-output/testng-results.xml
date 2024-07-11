@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-11T10:52:13 IST" name="Default suite" finished-at="2024-07-11T10:52:24 IST" duration-ms="11287">
+    <groups>
+    </groups>
+    <test started-at="2024-07-11T10:52:13 IST" name="Default test" finished-at="2024-07-11T10:52:24 IST" duration-ms="11287">
+      <class name="api_testsuite.Reqres_api">
+        <test-method signature="create()[pri:0, instance:api_testsuite.Reqres_api@e350b40]" started-at="2024-07-11T10:52:13 IST" name="create" finished-at="2024-07-11T10:52:16 IST" duration-ms="2862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create -->
+        <test-method signature="delay()[pri:0, instance:api_testsuite.Reqres_api@e350b40]" started-at="2024-07-11T10:52:16 IST" name="delay" finished-at="2024-07-11T10:52:20 IST" duration-ms="3538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delay -->
+        <test-method signature="delete()[pri:0, instance:api_testsuite.Reqres_api@e350b40]" started-at="2024-07-11T10:52:20 IST" name="delete" finished-at="2024-07-11T10:52:20 IST" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+        <test-method signature="list_resources()[pri:0, instance:api_testsuite.Reqres_api@e350b40]" started-at="2024-07-11T10:52:20 IST" name="list_resources" finished-at="2024-07-11T10:52:20 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- list_resources -->
+        <test-method signature="list_users()[pri:0, instance:api_testsuite.Reqres_api@e350b40]" started-at="2024-07-11T10:52:20 IST" name="list_users" finished-at="2024-07-11T10:52:20 IST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- list_users -->
+        <test-method signature="login()[pri:0, instance:api_testsuite.Reqres_api@e350b40]" started-at="2024-07-11T10:52:20 IST" name="login" finished-at="2024-07-11T10:52:21 IST" duration-ms="478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="login_not_successful()[pri:0, instance:api_testsuite.Reqres_api@e350b40]" started-at="2024-07-11T10:52:21 IST" name="login_not_successful" finished-at="2024-07-11T10:52:21 IST" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_not_successful -->
+        <test-method signature="lsingle_resources()[pri:0, instance:api_testsuite.Reqres_api@e350b40]" started-at="2024-07-11T10:52:21 IST" name="lsingle_resources" finished-at="2024-07-11T10:52:22 IST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lsingle_resources -->
+        <test-method signature="lsingle_resources_not_found()[pri:0, instance:api_testsuite.Reqres_api@e350b40]" started-at="2024-07-11T10:52:22 IST" name="lsingle_resources_not_found" finished-at="2024-07-11T10:52:22 IST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lsingle_resources_not_found -->
+        <test-method signature="reg_not_successful()[pri:0, instance:api_testsuite.Reqres_api@e350b40]" started-at="2024-07-11T10:52:22 IST" name="reg_not_successful" finished-at="2024-07-11T10:52:23 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reg_not_successful -->
+        <test-method signature="reg_successful()[pri:0, instance:api_testsuite.Reqres_api@e350b40]" started-at="2024-07-11T10:52:23 IST" name="reg_successful" finished-at="2024-07-11T10:52:23 IST" duration-ms="500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reg_successful -->
+        <test-method signature="single_user()[pri:0, instance:api_testsuite.Reqres_api@e350b40]" started-at="2024-07-11T10:52:23 IST" name="single_user" finished-at="2024-07-11T10:52:23 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- single_user -->
+        <test-method signature="single_user_not_found()[pri:0, instance:api_testsuite.Reqres_api@e350b40]" started-at="2024-07-11T10:52:23 IST" name="single_user_not_found" finished-at="2024-07-11T10:52:23 IST" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- single_user_not_found -->
+        <test-method signature="update()[pri:0, instance:api_testsuite.Reqres_api@e350b40]" started-at="2024-07-11T10:52:23 IST" name="update" finished-at="2024-07-11T10:52:24 IST" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update -->
+        <test-method signature="update1()[pri:0, instance:api_testsuite.Reqres_api@e350b40]" started-at="2024-07-11T10:52:24 IST" name="update1" finished-at="2024-07-11T10:52:24 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update1 -->
+      </class> <!-- api_testsuite.Reqres_api -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

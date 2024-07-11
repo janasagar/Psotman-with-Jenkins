@@ -1,0 +1,92 @@
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Restassured_jenmkins</groupId>
+  <artifactId>Restassured_jenmkins</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  
+  <properties>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+  </properties>
+<build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0-M5</version>
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>C:\Users\kkkkr\OneDrive\Desktop\masai\unit3\sdet201\eclipse\Restassured_jenmkins\testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+  
+  
+  
+  
+  <dependencies>
+
+
+
+
+<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>4.5.1</version>
+    <scope>test</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.7.1</version>
+    <scope>test</scope>
+</dependency>
+<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+</dependency>
+<dependency>
+    <groupId>org.jsoup</groupId>
+    <artifactId>jsoup</artifactId>
+    <version>1.14.3</version>
+</dependency>
+<dependency>
+   <groupId>io.rest-assured</groupId>
+   <artifactId>json-path</artifactId>
+   <version>4.5.1</version>
+   </dependency>
+<dependency>
+   <groupId>io.rest-assured</groupId>
+   <artifactId>xml-path</artifactId>
+   <version>4.5.1</version>
+   </dependency>
+<dependency>
+   <groupId>io.rest-assured</groupId>
+   <artifactId>json-schema-validator</artifactId>
+   <version>4.5.1</version>
+   </dependency>
+  
+  
+  
+  
+  
+  
+  
+  </dependencies>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</project>
